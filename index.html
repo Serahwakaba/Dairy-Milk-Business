@@ -67,6 +67,10 @@ function incomeOverTime(buyingRate, time) {
 var Report = `
 The weekly income will be Ksh.${weeklyIncome}
 The yearly income will be Ksh.${yearlyIncome}`;
+document.getElementById('weeklyReport').innerText = Report;
+};
+incomeOverTime(80, 7);
+
 
 
     </script>
