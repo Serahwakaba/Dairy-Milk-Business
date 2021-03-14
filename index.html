@@ -17,9 +17,15 @@
                      <div id="weeklyReport">
                             </div>
                 </nav>
-       
-    </div>
-</div>
+                </div>
+                <br><br>
+            </div>
+                <h3>The Report For a Leap Year At a Ksh. 45 rate.</h3>
+                        <div id="leapreportsoutput">
+                        </div>
+                    </div>
+                </div>
+
     <script>
         var milkProduced = function (cows, litres) {
          return cows * litres;
@@ -79,20 +85,23 @@ var daysInMonths = {
 };
 function leapYearResults(days){
     var monthsData= 
-   `The income for January is Ksh.${monthlyData.january * days}
-    The income for February is Ksh.${monthlyData.february * days}
-    The income for March is Ksh.${monthlyData.march * days}
-    The income for April is Ksh.${monthlyData.april * days}
-    The income for May is Ksh.${monthlyData.may * days}
-    The income for June is Ksh.${monthlyData.june * days}
-    The income for July is Ksh.${monthlyData.july * days}
-    The income for August is Ksh.${monthlyData.august * days}
-    The income for September is Ksh.${monthlyData.sept * days}
-    The income for October is Ksh.${monthlyData.oct * days}
-    The income for November is Ksh.${monthlyData.nov * days}
-    The income for December is Ksh.${monthlyData.dec * days}`;
+   `The income for January is Ksh.${daysInMonths.january * days}
+    The income for February is Ksh.${daysInMonths.february * days}
+    The income for March is Ksh.${daysInMonths.march * days}
+    The income for April is Ksh.${daysInMonths.april * days}
+    The income for May is Ksh.${daysInMonths.may * days}
+    The income for June is Ksh.${daysInMonths.june * days}
+    The income for July is Ksh.${daysInMonths.july * days}
+    The income for August is Ksh.${daysInMonths.august * days}
+    The income for September is Ksh.${daysInMonths.sept * days}
+    The income for October is Ksh.${daysInMonths.oct * days}
+    The income for November is Ksh.${daysInMonths.nov * days}
+    The income for December is Ksh.${daysInMonths.dec * days}`;
+    document.getElementById('leapreportsoutput').innerText = monthsData;
 
 };
+leapYearResults(dailyProduce);
+
 
 
 
