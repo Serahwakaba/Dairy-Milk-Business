@@ -27,6 +27,24 @@
     shedB + shedC + shedD + shedE + shedF + shedG + shedH + shedI + shedJ;
     var TotalDailyProduction = dailyProduce * 45;
 
+    function totalProduction() {
+
+    var milkPerWeek = 
+    `The production in Shed A is ${shedA} litres per day.
+    The production in Shed B is ${shedB} litres per day.
+    The production in Shed C is ${shedC} litres per day.
+    The production in Shed D is ${shedD} litres per day.
+    The production in Shed D is ${shedE} litres per day.
+    The production in Shed D is ${shedF} litres per day.
+    The production in Shed D is ${shedG} litres per day.
+    The production in Shed D is ${shedH} litres per day.
+    The production in Shed D is ${shedI} litres per day.
+    The production in Shed D is ${shedJ} litres per day.
+    The total milk production is ${dailyProduce} litres per day.`;
+    document.getElementById('milkpershedoutput').innerText = milkPerWeek;
+    };
+totalProduction();
+
 
     </script>
 </body>
