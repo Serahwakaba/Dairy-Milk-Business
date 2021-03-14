@@ -1,3 +1,11 @@
+body{
+    margin: auto;
+    background-color: rgb(117, 90, 92);
+    max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+}
 #cow{
     opacity:60%;
 }
