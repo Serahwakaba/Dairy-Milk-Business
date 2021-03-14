@@ -20,7 +20,7 @@ To access this project on your local files, you can clone it using these steps
 1. JavaScript
 1. Git
 ### Live Site
-View [live](https://Serahwakaba.github.io/Dairy-Milk-Business.git)
+View [live](https://serahwakaba.github.io/Dairy-Milk-Business/)
 ### Licence
 This project is under the [MIT](LICENSE) licence
 License format:
