@@ -9,7 +9,7 @@
         <div class="milk">
         <img id="cow" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/1/8/1/4/5914181-1-eng-GB/Ireland-Questions-over-iodine-levels-in-dairy-feed_wrbm_large.jpg"width="1350" height="500">
         <h3>The Report For Milk Produced Per Shed.</h3>
-                <div id="milkpershedoutput">
+                <div id="milkResults">
                 </div>
                 </div>
                 <nav style=" height:100px;"> 
@@ -53,7 +53,7 @@
     The production in Shed D is ${shedI} litres per day.
     The production in Shed D is ${shedJ} litres per day.
     The total milk production is ${dailyProduce} litres per day.`;
-    document.getElementById('milkpershedoutput').innerText = milkPerWeek;
+    document.getElementById('milkResults').innerText = milkPerWeek;
     };
 totalProduction();
 /*Writing a function that takes in the Brookside buying rate as one of its arguments, 
@@ -71,8 +71,12 @@ document.getElementById('weeklyReport').innerText = Report;
 };
 incomeOverTime(80, 7);
 
-
-
+/*Create a report on how much you'll make each month in a leap year. (Hint: Consider using objects.)
+*/
+var daysInMonths = {
+    january: 31,february: 29, march: 31, april: 30, may: 31, june: 30, july: 31, august: 31, sept: 30, oct: 31,nov: 30,
+    dec: 31
+};
     </script>
 </body>
 </html>
